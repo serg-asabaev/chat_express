@@ -1,0 +1,11 @@
+{
+    "name": "socket",
+    "version": "0.0.1",
+    "description": "Мой первый проект на Socket.io",
+    "dependencies": {
+        "express": "^4.17.2",
+        "md5": "^2.3.0",
+        "socket.io": "^4.4.0",
+        "sqlite3": "^5.0.2"
+    }
+}

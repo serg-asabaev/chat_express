@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="socket.io/socket.io.js"></script>
+    <title>My server</title>
+</head>
+
+<body>
+    <section class="wrapper">
+        <div class="inputbox">
+            <div class="usernamebox">
+                <h2 class="nametitle">Имя пользователя</h2>
+                <input name="username" id="username" class="username">
+            </div>
+            <div class="messagebox">
+                <h2 class="messagetitle">Сообщение</h2>
+            <div class="messagerow">                
+                <input name="message" id="message" class="message">
+                <button id="submit" class="submit">Отправить сообщение</button>
+            </div>
+
+            </div>
+        </div>
+        <div class="outputbox">
+            <h2 class="outputtitle">Список сообщений</h2>
+            <div name="output" id="output" class="output"></div>
+        </div>
+    </section>
+    <script src="/app.js"></script>
+</body>
+
+</html>

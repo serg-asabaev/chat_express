@@ -1,0 +1,36 @@
+html {
+    background-color: honeydew;
+}
+
+.wrapper{
+    width:50%;
+    margin: 50px auto;
+}
+
+.inputbox{
+    
+}
+
+.username{
+    width:100%;
+}
+
+.messagerow{
+    display:flex;
+    flex-direction: row;
+}
+.message{
+    width:80%;
+    right:0;
+}
+
+.submit{
+    width:20%;
+    margin-right:0;
+}
+
+.output{
+    width:100%;
+    height:310px;
+    background-color:white;
+}
